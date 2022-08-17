@@ -1,0 +1,22 @@
+export default function ButtonSearch() {
+  return (
+    <button className="flex px-4 h-11 bg-slate-100 dark:bg-[#172e31] rounded-md">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="text-black dark:text-white m-auto"
+        data-v-c3c2d138=""
+      >
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </button>
+  );
+}
