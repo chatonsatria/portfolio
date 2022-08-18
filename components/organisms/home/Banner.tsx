@@ -16,16 +16,12 @@ export default function Banner() {
         </p>
         <ButtonDownload buttonText="Download CV" />
       </div>
-      {theme === "dark" ? (
-        <Image src="/next/developer-dark.svg" alt="" width={800} height={800} />
-      ) : (
-        <Image
-          src="/next/developer-light.svg"
-          alt=""
-          width={800}
-          height={800}
-        />
-      )}
+      <Image
+        src={`/next/developer-${theme}.svg`}
+        alt=""
+        width={800}
+        height={800}
+      />
     </section>
   );
 }
