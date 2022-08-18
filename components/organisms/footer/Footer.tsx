@@ -6,13 +6,13 @@ export default function Footer() {
       data-aos="fade-right"
       className="flex flex-col w-full text-center mt-11"
     >
-      <p className="text-center font-semibold text-5xl">Follow Me</p>
+      <p className="text-center font-semibold text-3xl">Follow Me</p>
       <div className="inline-flex gap-x-8 mt-8 mx-auto">
         {/* git */}
         <div className="flex p-3 rounded-xl cursor-pointer text-[#172e31] dark:text-white hover:text-white hover:dark:text-[#172e31] bg-[#F5F5F5] dark:bg-[#172e31] hover:bg-[#172e31] hover:dark:bg-[#F5F5F5] transition-all">
           <svg
-            width="40"
-            height="40"
+            width="26"
+            height="26"
             viewBox="0 0 200 200"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
@@ -23,8 +23,8 @@ export default function Footer() {
         {/* linkedin */}
         <div className="flex p-3 rounded-xl cursor-pointer text-[#172e31] dark:text-white hover:text-white hover:dark:text-[#172e31] bg-[#F5F5F5] dark:bg-[#172e31] hover:bg-[#172e31] hover:dark:bg-[#F5F5F5] transition-all">
           <svg
-            width="40"
-            height="40"
+            width="26"
+            height="26"
             viewBox="0 0 200 200"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
@@ -35,8 +35,8 @@ export default function Footer() {
         {/* twitter */}
         <div className="flex p-3 rounded-xl cursor-pointer text-[#172e31] dark:text-white hover:text-white hover:dark:text-[#172e31] bg-[#F5F5F5] dark:bg-[#172e31] hover:bg-[#172e31] hover:dark:bg-[#F5F5F5] transition-all">
           <svg
-            width="40"
-            height="40"
+            width="26"
+            height="26"
             viewBox="0 0 200 200"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
@@ -47,8 +47,8 @@ export default function Footer() {
         {/* instagram */}
         <div className="flex p-3 rounded-xl cursor-pointer text-[#172e31] dark:text-white hover:text-white hover:dark:text-[#172e31] bg-[#F5F5F5] dark:bg-[#172e31] hover:bg-[#172e31] hover:dark:bg-[#F5F5F5] transition-all">
           <svg
-            width="40"
-            height="40"
+            width="26"
+            height="26"
             viewBox="0 0 200 200"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
