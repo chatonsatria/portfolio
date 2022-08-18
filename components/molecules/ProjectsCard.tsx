@@ -12,7 +12,7 @@ export default function ProjectCard(
   const { imageUrl = "", title, category, href } = props;
   return (
     <section data-aos="fade-right">
-      <Link href={`/projects/detail/${href}`}>
+      <Link href={`/projects/${href}`}>
         <div className="flex flex-col w-full dark:bg-[#172e31] text-center rounded-md shadow-md hover:shadow-lg transition-all cursor-pointer">
           <Image
             src={imageUrl}
