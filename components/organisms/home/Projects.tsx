@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useContext, useState } from "react";
 import { StoreContext } from "../../../store/store-context";
-import ButtonPrimary from "../../atom/buttons/ButtonPrimary";
+import ButtonLinkPrimary from "../../atom/buttons/ButtonLinkPrimary";
 import FilterSearch from "../../atom/filters/FilterSearch";
 import ProjectCard from "../../molecules/ProjectsCard";
 
@@ -41,7 +41,11 @@ export default function Projects() {
             ))}
         </div>
         <div data-aos="fade-right" className="flex w-full justify-center">
-          <ButtonPrimary buttonText="More Projects" href={"/projects"} />
+          <ButtonLinkPrimary
+            buttonText="More Projects"
+            href={"/projects"}
+            target_blank={false}
+          />
         </div>
       </div>
     </section>
