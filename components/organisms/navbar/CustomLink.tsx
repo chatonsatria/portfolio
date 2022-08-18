@@ -39,30 +39,20 @@ export default function CustomLink(props: Partial<MenuProps>) {
             className="relative inline-flex gap-x-3 items-center"
           >
             <div className="flex w-[70px] h-[70px] rounded-full hover:shadow-md transition-all duration-500">
-              {theme === "dark" ? (
-                <Image
-                  src="/next/logo-dark.svg"
-                  alt=""
-                  width={70}
-                  height={70}
-                  className="z-[102] rounded-full"
-                />
-              ) : (
-                <Image
-                  src="/next/logo-light.svg"
-                  alt=""
-                  width={70}
-                  height={70}
-                  className="z-[102] rounded-full"
-                />
-              )}
+              <Image
+                src={`/next/logo-${theme}.svg`}
+                alt=""
+                width={70}
+                height={70}
+                className="z-[102] rounded-full"
+              />
             </div>
             <p
               className={`absolute ${
                 hover ? "opacity-100 translate-x-20" : "opacity-0"
               } z-[101] text-2xl font-semibold transition-all duration-500`}
             >
-              Chaton
+              CHA
             </p>
           </div>
         )}
