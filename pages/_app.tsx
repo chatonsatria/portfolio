@@ -1,7 +1,7 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { ThemeProvider } from "next-themes";
-import NavbarIndex from "../components/organisms/navbar";
+import Navbar from "../components/organisms/navbar";
 import Footer from "../components/organisms/footer/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -19,12 +19,14 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <StoreContextProvider>
       <ThemeProvider attribute="class">
-        <section className="font-poppins py-8">
-          <NavbarIndex />
-          <div className="flex w-full max-w-7xl mx-auto px-8 md:px-20">
-            <Component {...pageProps} />
+        <section className="font-poppins flex flex-col justify-between min-h-screen py-8">
+          <div>
+            <Navbar />
+            <div className="flex w-full max-w-7xl mx-auto px-11 md:px-20">
+              <Component {...pageProps} />
+            </div>
           </div>
-          <div className="flex w-full max-w-7xl mx-auto px-8 md:px-20">
+          <div className="flex w-full max-w-7xl mx-auto px-11 md:px-20">
             <Footer />
           </div>
         </section>
