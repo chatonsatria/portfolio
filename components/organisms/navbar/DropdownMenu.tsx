@@ -1,3 +1,4 @@
+import ButtonPrimary from "../../atom/buttons/ButtonPrimary";
 import CustomLink from "./CustomLink";
 
 export default function DropdownMenu(props: { toggle: boolean }) {
@@ -14,9 +15,13 @@ export default function DropdownMenu(props: { toggle: boolean }) {
         <div className="border-b-2 dark:border-[#152C2F] pb-2">
           <CustomLink title="About Me" href="/about" />
         </div>
-        <div>
+        <div className="border-b-2 dark:border-[#152C2F] pb-2">
           <CustomLink title="Contact" href="/contact" />
         </div>
+        <ButtonPrimary
+          onClick={() => console.log("hire me")}
+          buttonText="Hire Me"
+        />
       </div>
     </section>
   );

@@ -7,12 +7,11 @@ import { useState } from "react";
 interface MenuProps {
   title: string;
   href: string;
-  imageUrl: string;
   hidden: boolean;
 }
 
 export default function CustomLink(props: Partial<MenuProps>) {
-  const { title, href = "/", imageUrl = "", hidden = false } = props;
+  const { title, href = "/", hidden = false } = props;
   const router = useRouter();
   const [hover, setHover] = useState(false);
   const { theme } = useTheme();
@@ -25,7 +24,7 @@ export default function CustomLink(props: Partial<MenuProps>) {
             className={`${
               hidden ? "hidden md:block" : ""
             } font-semibold hover:text-[#2F5D62] ${
-              router.pathname == href
+              router.pathname === href
                 ? "text-[#2F5D62]"
                 : "text-black dark:text-white"
             }`}

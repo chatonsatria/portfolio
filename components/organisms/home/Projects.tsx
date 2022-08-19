@@ -1,10 +1,9 @@
 // import FilterDropdown from "../../atom/filters/FilterDropdown";
-import Link from "next/link";
 import { useContext, useState } from "react";
 import { StoreContext } from "../../../store/store-context";
 import ButtonLinkPrimary from "../../atom/buttons/ButtonLinkPrimary";
 import FilterSearch from "../../atom/filters/FilterSearch";
-import ProjectCard from "../../molecules/ProjectsCard";
+import ProjectCard from "../../molecules/CardProjects";
 
 export default function Projects() {
   const { realProjects } = useContext(StoreContext);
