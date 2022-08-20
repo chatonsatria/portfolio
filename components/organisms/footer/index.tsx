@@ -12,7 +12,7 @@ export default function Footer() {
         {/* git */}
         <Link href="https://github.com/chatonsatria">
           <a target={"_blank"}>
-            <div className="flex p-3 rounded-xl cursor-pointer text-[#172e31] dark:text-white hover:text-white hover:dark:text-[#172e31] bg-[#F5F5F5] dark:bg-[#172e31] hover:bg-[#172e31] hover:dark:bg-[#F5F5F5] transition-all">
+            <div className="flex p-3 rounded-xl cursor-pointer text-[#172e31] dark:text-white hover:text-white hover:dark:text-[#172e31] bg-[#F5F5F5] dark:bg-[#172e31] hover:bg-[#172e31] hover:dark:bg-[#F5F5F5] transition-colors">
               <svg
                 width="26"
                 height="26"
@@ -28,7 +28,7 @@ export default function Footer() {
         {/* linkedin */}
         <Link href="https://www.linkedin.com/in/chaton-satria-yudhystira-a71660203/">
           <a target={"_blank"}>
-            <div className="flex p-3 rounded-xl cursor-pointer text-[#172e31] dark:text-white hover:text-white hover:dark:text-[#172e31] bg-[#F5F5F5] dark:bg-[#172e31] hover:bg-[#172e31] hover:dark:bg-[#F5F5F5] transition-all">
+            <div className="flex p-3 rounded-xl cursor-pointer text-[#172e31] dark:text-white hover:text-white hover:dark:text-[#172e31] bg-[#F5F5F5] dark:bg-[#172e31] hover:bg-[#172e31] hover:dark:bg-[#F5F5F5] transition-colors">
               <svg
                 width="26"
                 height="26"
@@ -44,7 +44,7 @@ export default function Footer() {
         {/* twitter */}
         <Link href="https://twitter.com/aritsyhduy">
           <a target={"_blank"}>
-            <div className="flex p-3 rounded-xl cursor-pointer text-[#172e31] dark:text-white hover:text-white hover:dark:text-[#172e31] bg-[#F5F5F5] dark:bg-[#172e31] hover:bg-[#172e31] hover:dark:bg-[#F5F5F5] transition-all">
+            <div className="flex p-3 rounded-xl cursor-pointer text-[#172e31] dark:text-white hover:text-white hover:dark:text-[#172e31] bg-[#F5F5F5] dark:bg-[#172e31] hover:bg-[#172e31] hover:dark:bg-[#F5F5F5] transition-colors">
               <svg
                 width="26"
                 height="26"
@@ -60,7 +60,7 @@ export default function Footer() {
         {/* instagram */}
         <Link href="https://www.instagram.com/martinus_chaton/">
           <a target={"_blank"}>
-            <div className="flex p-3 rounded-xl cursor-pointer text-[#172e31] dark:text-white hover:text-white hover:dark:text-[#172e31] bg-[#F5F5F5] dark:bg-[#172e31] hover:bg-[#172e31] hover:dark:bg-[#F5F5F5] transition-all">
+            <div className="flex p-3 rounded-xl cursor-pointer text-[#172e31] dark:text-white hover:text-white hover:dark:text-[#172e31] bg-[#F5F5F5] dark:bg-[#172e31] hover:bg-[#172e31] hover:dark:bg-[#F5F5F5] transition-colors">
               <svg
                 width="26"
                 height="26"

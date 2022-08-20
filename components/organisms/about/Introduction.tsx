@@ -108,7 +108,7 @@ export default function Introduction() {
         </p>
         <ul>
           <li className="font-semibold text-lg text-[#13282B] dark:text-white">
-            Institutions that give me confidence:
+            Institutions:
           </li>
           <li>UPN "Veteran" Yogyakarta</li>
         </ul>
@@ -119,7 +119,7 @@ export default function Introduction() {
           <li>Web Programming</li>
           <li>Frontend Development</li>
           <li>Team Works</li>
-          <li>Keep Learning</li>
+          <li>Many More and Keep Learning</li>
         </ul>
       </div>
     </section>

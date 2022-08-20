@@ -19,7 +19,10 @@ export default function DropdownMenu(props: { toggle: boolean }) {
         <div className="border-b-2 dark:border-[#152C2F] pb-2">
           <CustomLink title="Contact" href="/contact" />
         </div>
-        <Link href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=chaton.satria@gmail.com&su=hiring&body=body">
+        <Link
+          href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=chaton.satria@gmail.com&su=Job Offer&body=Hallo Chaton Satria Yudhystira,
+            We Would like to inform you that . . . ."
+        >
           <a target="_blank">
             <ButtonPrimary
               onClick={() => console.log("hire me")}

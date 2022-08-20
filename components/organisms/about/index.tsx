@@ -21,19 +21,11 @@ export default function About() {
         </div>
         <div className="flex flex-col w-full lg:w-3/4 gap-y-4 mt-11 lg:mt-0">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus molestias sint cum cumque nulla dolorem placeat,
-            perferendis quo sit asperiores nisi cupiditate quibusdam laudantium
-            accusamus corporis vel rem? Asperiores sunt, aperiam quaerat
-            voluptatem veniam consequatur inventore dignissimos deleniti
-            adipisci temporibus sit recusandae accusantium molestiae at commodi
-            et minima explicabo! Hic quae magnam quia vitae labore sunt nisi,
-            necessitatibus laudantium amet ad eum repellat minus expedita
-            numquam? Sunt, porro optio. Laboriosam quas, reprehenderit
-            repudiandae architecto ducimus minus repellendus assumenda fugit sed
-            non sapiente ipsa aliquid autem sit nulla ab veniam sunt. Tenetur
-            repellendus vel, aliquam voluptatum reiciendis modi unde? Sed,
-            ullam?
+            Graduate of informatics, web development enthusiast, and likes to
+            learn new things. With a year of experience specializing in
+            front-end development. Experienced in developing client-side
+            software applications using HTML, CSS, Javascript, ReactJS, and
+            NextJS.
           </p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
