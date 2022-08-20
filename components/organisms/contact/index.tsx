@@ -22,7 +22,7 @@ export default function Contact() {
       >
         Contact Details
       </p>
-      <div className="w-full shadow-md cursor-pointer">
+      <div data-aos="fade-right" className="w-full shadow-md cursor-pointer">
         {/* email */}
         <div
           onClick={() => toggleHandler(1)}
