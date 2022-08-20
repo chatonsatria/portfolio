@@ -27,7 +27,6 @@ export default function Projects(props: {
         <p data-aos="fade-right" className="text-center font-semibold text-5xl">
           Projects Portfolio
         </p>
-
         <div data-aos="fade-right">
           <FilterSearch
             searchValue={(value) =>
