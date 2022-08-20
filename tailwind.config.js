@@ -11,12 +11,15 @@ module.exports = {
       safelist: ["dark"], //specific classes
     },
   },
-
   theme: {
     typography: (theme) => ({}),
     extend: {
       fontFamily: {
         poppins: ["'Poppins'", "sans-serif"],
+      },
+      transitionProperty: {
+        height: "height",
+        width: "widht",
       },
     },
   },

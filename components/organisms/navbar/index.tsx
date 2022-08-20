@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useState } from "react";
 import ButtonDarkMode from "../../atom/buttons/ButtonDarkMode";
 import ButtonMenu from "../../atom/buttons/ButtonMenu";
@@ -18,10 +19,14 @@ export default function Navbar() {
         </div>
         <div className="inline-flex gap-x-6 items-center">
           <div className="hidden md:block">
-            <ButtonPrimary
-              onClick={() => console.log("hire me")}
-              buttonText="Hire Me"
-            />
+            <Link href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=chaton.satria@gmail.com&su=Job Offering">
+              <a target="_blank">
+                <ButtonPrimary
+                  onClick={() => console.log("hire me")}
+                  buttonText="Hire Me"
+                />
+              </a>
+            </Link>
           </div>
           <ButtonDarkMode />
           <ButtonMenu onClick={() => setToggle((toggle) => !toggle)} />

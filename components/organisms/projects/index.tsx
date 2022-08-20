@@ -3,10 +3,23 @@ import { StoreContext } from "../../../store/store-context";
 import FilterSearch from "../../atom/filters/FilterSearch";
 import ProjectCard from "../../molecules/CardProjects";
 
-export default function Projects() {
-  const { realProjects, explorationProjects } = useContext(StoreContext);
-  const [realSearch, setRealSearch] = useState("");
-  const [explorationSearch, setExplorationSearch] = useState("");
+export default function Projects(props: {
+  dataRealProject: any;
+  dataExplorationProject: any;
+  searchFilter: any;
+  searchValue: (searchValue: any) => void;
+}) {
+  const { dataRealProject, dataExplorationProject, searchFilter, searchValue } =
+    props;
+  const searchValueChangeHandler = (
+    realValue: string,
+    explorationValue: string
+  ) => {
+    searchValue({
+      realValue,
+      explorationValue,
+    });
+  };
   return (
     <section className="flex flex-col gap-y-8">
       {/* real */}
@@ -15,17 +28,24 @@ export default function Projects() {
           Projects Portfolio
         </p>
 
-        <div data-aos="fade-right" className="inline-flex justify-between">
-          <FilterSearch searchValue={(value) => setRealSearch(value)} />
-          {/* <FilterDropdown /> */}
+        <div data-aos="fade-right">
+          <FilterSearch
+            searchValue={(value) =>
+              searchValueChangeHandler(value, searchFilter?.explorationValue)
+            }
+          />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {realProjects
+          {dataRealProject
             .filter((data: any) => {
-              if (!realSearch) return true;
+              if (!searchFilter?.realValue) return true;
               if (
-                data.title.toLowerCase().includes(realSearch.toLowerCase()) ||
-                data.category.toLowerCase().includes(realSearch.toLowerCase())
+                data.title
+                  .toLowerCase()
+                  .includes(searchFilter?.realValue.toLowerCase()) ||
+                data.category
+                  .toLowerCase()
+                  .includes(searchFilter?.realValue.toLowerCase())
               ) {
                 return true;
               }
@@ -46,20 +66,24 @@ export default function Projects() {
         <p data-aos="fade-right" className="text-center font-semibold text-5xl">
           Exploration
         </p>
-        <div data-aos="fade-right" className="inline-flex justify-between">
-          <FilterSearch searchValue={(value) => setExplorationSearch(value)} />
+        <div data-aos="fade-right">
+          <FilterSearch
+            searchValue={(value) =>
+              searchValueChangeHandler(searchFilter?.realValue, value)
+            }
+          />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {explorationProjects
+          {dataExplorationProject
             .filter((data: any) => {
-              if (!explorationSearch) return true;
+              if (!searchFilter?.explorationValue) return true;
               if (
                 data.title
                   .toLowerCase()
-                  .includes(explorationSearch.toLowerCase()) ||
+                  .includes(searchFilter?.explorationValue.toLowerCase()) ||
                 data.category
                   .toLowerCase()
-                  .includes(explorationSearch.toLowerCase())
+                  .includes(searchFilter?.explorationValue.toLowerCase())
               ) {
                 return true;
               }

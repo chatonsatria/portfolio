@@ -3,7 +3,7 @@ import ButtonLinkPrimary from "../../../atom/buttons/ButtonLinkPrimary";
 export default function DetailDescription(props: { url: string }) {
   const { url } = props;
   return (
-    <section className="flex flex-col col-span-2 gap-y-8">
+    <section data-aos="fade-right" className="flex flex-col col-span-2 gap-y-8">
       {/* description */}
       <div className="inline-flex justify-between items-center">
         <p className="text-2xl font-semibold">Description</p>

@@ -3,7 +3,7 @@ import ButtonLinkPrimary from "../../../atom/buttons/ButtonLinkPrimary";
 export default function DetailAbout(props: { data: any }) {
   const { data } = props;
   return (
-    <div className="flex flex-col col-span-1 gap-y-8">
+    <div data-aos="fade-right" className="flex flex-col col-span-1 gap-y-8">
       {/* about client */}
       <div className="flex flex-col gap-y-8">
         <div className="inline-flex justify-between items-center">

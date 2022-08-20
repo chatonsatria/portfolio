@@ -1,6 +1,5 @@
 import { useTheme } from "next-themes";
 import Image from "next/image";
-import { useEffect } from "react";
 
 export default function ButtonDarkMode() {
   const { theme, setTheme } = useTheme();

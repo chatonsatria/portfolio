@@ -5,11 +5,11 @@ export default function DetailTitle(props: {
 }) {
   const { title, date, tag } = props;
   return (
-    <section className="flex flex-col lg:flex-row justify-between items-center">
-      <p
-        data-aos="fade-right"
-        className="text-center font-semibold text-4xl md:text-5xl mb-4"
-      >
+    <section
+      data-aos="fade-right"
+      className="flex flex-col lg:flex-row justify-between items-center"
+    >
+      <p className="text-center font-semibold text-4xl md:text-5xl mb-4">
         {title ? title : ""}
       </p>
       <div className="inline-flex gap-x-4 items-center">
