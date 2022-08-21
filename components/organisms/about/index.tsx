@@ -11,12 +11,13 @@ export default function About() {
       >
         <div className="flex w-full max-w-[300px]">
           <Image
-            src="/next/developer-light.svg"
+            src="/images/profile.png"
             alt=""
             width={300}
             height={300}
             layout={"fixed"}
             objectFit={"cover"}
+            className="rounded-md"
           />
         </div>
         <div className="flex flex-col w-full lg:w-3/4 gap-y-4 mt-11 lg:mt-0">
@@ -28,13 +29,8 @@ export default function About() {
             NextJS.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus molestias sint cum cumque nulla dolorem placeat,
-            perferendis quo sit asperiores nisi cupiditate quibusdam laudantium
-            accusamus corporis vel rem? Asperiores sunt, aperiam quaerat
-            voluptatem veniam consequatur inventore dignissimos deleniti
-            adipisci temporibus sit recusandae accusantium molestiae at commodi
-            et minima explicabo!
+            Has experience in developing webiste dashboards application, one of
+            which handles the PastiAngkut project.
           </p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.

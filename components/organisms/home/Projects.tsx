@@ -31,7 +31,7 @@ export default function Projects(props: {
             .map((data: any, key: number) => (
               <ProjectCard
                 key={key}
-                imageUrl="/next/developer-light.svg"
+                imageUrl={data.project_thumbnail}
                 title={data.title}
                 category={data.category}
                 href={data.slug}
