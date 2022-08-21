@@ -43,7 +43,7 @@ export default function About() {
           </p>
         </div>
       </div>
-      {/* quick skill and education intro */}
+      {/* quick skill and education int */}
       <Introduction />
     </section>
   );
