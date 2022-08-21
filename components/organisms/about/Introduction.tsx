@@ -110,7 +110,7 @@ export default function Introduction() {
           <li className="font-semibold text-lg text-[#13282B] dark:text-white">
             Institutions:
           </li>
-          <li>UPN "Veteran" Yogyakarta</li>
+          <li>UPN Veteran Yogyakarta</li>
         </ul>
         <ul className="mt-8">
           <li className="font-semibold text-lg text-[#13282B] dark:text-white">
