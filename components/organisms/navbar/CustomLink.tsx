@@ -14,7 +14,7 @@ export default function CustomLink(props: Partial<MenuProps>) {
   const { title, href = "/", hidden = false } = props;
   const router = useRouter();
   const [hover, setHover] = useState(false);
-  const { theme } = useTheme();
+  const { theme = "system" } = useTheme();
 
   return (
     <Link href={href}>

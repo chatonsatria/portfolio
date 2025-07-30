@@ -3,7 +3,7 @@ import ButtonDownload from "../../atom/buttons/ButtonDownload";
 import { useTheme } from "next-themes";
 
 export default function Banner() {
-  const { theme } = useTheme();
+  const { theme = "system" } = useTheme();
   return (
     <section
       data-aos="fade-right"

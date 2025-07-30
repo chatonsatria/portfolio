@@ -21,7 +21,7 @@ export default function DetailThumbnail(props: { data: any }) {
             width={900}
             height={900}
             layout="responsive"
-            objectFit={"cover"}
+            objectFit={"contain"}
             className="rounded-md hover:scale-105 transition-all cursor-pointer"
           />
         </div>

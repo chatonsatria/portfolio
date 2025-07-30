@@ -3,7 +3,7 @@ import Head from "next/head";
 import About from "../components/organisms/about";
 
 export default function AboutIndex() {
-  const { theme } = useTheme();
+  const { theme = "system" } = useTheme();
   return (
     <section className="flex flex-col gap-y-8 w-full max-w-7xl mx-auto mt-24">
       <Head>

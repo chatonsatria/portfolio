@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, []);
   return (
     <StoreContextProvider>
-      <ThemeProvider attribute="class">
+      <ThemeProvider attribute="class" defaultTheme="system">
         <section className="font-poppins flex flex-col justify-between min-h-screen py-8">
           <div>
             <Navbar />

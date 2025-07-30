@@ -23,9 +23,9 @@ export default function About() {
         <div className="flex flex-col w-full lg:w-3/4 gap-y-4 mt-11 lg:mt-0">
           <p>
             Graduate of informatics, web development enthusiast, and likes to
-            learn new things. With a year of experience specializing in
-            front-end development. Experienced in developing client-side
-            software applications using HTML, CSS, Javascript, ReactJS, and
+            learn new things. 3 years of experience specializing in front-end
+            development. Experienced in developing client-side software
+            applications using HTML, CSS, Tailwind CSS, Javascript, ReactJS, and
             NextJS.
           </p>
           <p>
@@ -33,13 +33,12 @@ export default function About() {
             which handles the PastiAngkut project.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus molestias sint cum cumque nulla dolorem placeat,
-            perferendis quo sit asperiores nisi cupiditate quibusdam laudantium
-            accusamus corporis vel rem? Asperiores sunt, aperiam quaerat
-            voluptatem veniam consequatur inventore dignissimos deleniti
-            adipisci temporibus sit recusandae accusantium molestiae at commodi
-            et minima explicabo!
+            Developed and maintained web applications using React.js and/or
+            Next.js, prioritizing optimal performance and user experience.
+            Collaborated with the design team to create pixel-perfect and
+            responsive UI/UX designs, implemented state management through Redux
+            and context API for data consistency, conducted code reviews, and
+            optimized codebase.
           </p>
         </div>
       </div>

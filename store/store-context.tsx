@@ -110,7 +110,11 @@ const StoreContextProvider: React.FC<{
       objective: "",
       tools_tech: "HTML, CSS, JavaScript, Vue.js, TailwindCSS",
       description: "",
-      project_images: [{ image: "" }, { image: "" }, { image: "" }],
+      project_images: [
+        { image: "/images/MedActive/first.png" },
+        { image: "/images/MedActive/second.png" },
+        { image: "/images/MedActive/third.png" },
+      ],
       demo_url: "",
     },
     // movies
@@ -131,7 +135,11 @@ const StoreContextProvider: React.FC<{
       tools_tech: "HTML, CSS, JavaScript, React.js, TailwindCSS, Firebase",
       description:
         "This is a DTS digitalent mini project for React Developer class. this website use TMDB as third party API to get all movie data and display it on the application. <br/><br/>Main library used in this project is Better react carousel, another librari such as axios, react router dom also added in this project. For the authentication, this project using firebase auth. So user can register and login with their account. User who not registered in the database cannot see movie detail or playing the movie trailer",
-      project_images: [{ image: "" }, { image: "" }, { image: "" }],
+      project_images: [
+        { image: "/images/Rawr/first.png" },
+        { image: "/images/Rawr/second.png" },
+        { image: "/images/Rawr/third.png" },
+      ],
       demo_url: "https://chatonsatria-dts-movie.netlify.app/dts-mini-movie",
     },
     // rawr
@@ -152,7 +160,11 @@ const StoreContextProvider: React.FC<{
       tools_tech: "HTML, CSS, JavaScript, React.js, TailwindCSS, Firebase",
       description:
         "This is a DTS digitalent final project for React Developer class. this website use RAWG as third party API Key to get all the games list data and display it on the application. <br/><br/>Main feature in this application is searching and filtering. Searching feature can be done by inputing game name in the search box, and filtering can be done by clicking dropdown menu. This website also give game recomendation based on game genres.Authentication by firebase auth. User can login and register.",
-      project_images: [{ image: "" }, { image: "" }, { image: "" }],
+      project_images: [
+        { image: "/images/Rawr/first.png" },
+        { image: "/images/Rawr/second.png" },
+        { image: "/images/Rawr/third.png" },
+      ],
       demo_url: "https://152235865100777-dts-final-project.netlify.app/",
     },
   ];
@@ -191,7 +203,7 @@ const StoreContextProvider: React.FC<{
       title: "Medical Active",
       slug: "medical-active",
       category: "Web Application",
-      project_thumbnail: "",
+      project_thumbnail: "/images/MedActive/logo.png",
     },
     // movies
     {
@@ -199,7 +211,7 @@ const StoreContextProvider: React.FC<{
       title: "Movies",
       slug: "movies",
       category: "Web Application",
-      project_thumbnail: "",
+      project_thumbnail: "/images/Movie/first.png",
     },
     // rawr
     {
@@ -207,7 +219,7 @@ const StoreContextProvider: React.FC<{
       title: "R A W R",
       slug: "r-a-w-r",
       category: "Web Application",
-      project_thumbnail: "",
+      project_thumbnail: "/images/Rawr/first.png",
     },
   ];
 

@@ -2,7 +2,7 @@ import { useTheme } from "next-themes";
 import Image from "next/image";
 
 export default function ButtonDarkMode() {
-  const { theme, setTheme } = useTheme();
+  const { theme = "system", setTheme } = useTheme();
   return (
     <button
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}

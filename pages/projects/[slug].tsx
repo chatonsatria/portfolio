@@ -7,7 +7,7 @@ import { StoreContext } from "../../store/store-context";
 
 export default function IndexDetail() {
   const router = useRouter();
-  const { theme } = useTheme();
+  const { theme = "system" } = useTheme();
   const { slug } = router.query;
   const { allProjects } = useContext(StoreContext);
   const setDataBySlug = (data: any) => {

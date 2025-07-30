@@ -6,7 +6,7 @@ import Home from "../components/organisms/home";
 import { StoreContext } from "../store/store-context";
 
 const HomeIndex: NextPage = () => {
-  const { theme } = useTheme();
+  const { theme = "system" } = useTheme();
   const { realProjects } = useContext(StoreContext);
   const [realSearch, setRealSearch] = useState("");
   return (

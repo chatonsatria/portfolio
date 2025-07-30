@@ -5,7 +5,7 @@ import Projects from "../../components/organisms/projects";
 import { StoreContext } from "../../store/store-context";
 
 export default function ProjectsIndex() {
-  const { theme } = useTheme();
+  const { theme = "system" } = useTheme();
   const { realProjects, explorationProjects } = useContext(StoreContext);
   const [searchFilter, setSearchFilter] = useState<any>();
   return (

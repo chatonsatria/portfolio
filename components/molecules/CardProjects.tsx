@@ -13,7 +13,7 @@ export default function CardProjects(
 ) {
   const { imageUrl = "", title, category, href } = props;
   const [hover, setHover] = useState(false);
-  const { theme } = useTheme();
+  const { theme = "system" } = useTheme();
   return (
     <section
       data-aos="fade-right"
@@ -34,7 +34,7 @@ export default function CardProjects(
               width={900}
               height={600}
               layout="responsive"
-              objectFit={"cover"}
+              objectFit={"contain"}
               className={`${
                 hover ? "scale-105" : ""
               } rounded-t-md transition-all`}
